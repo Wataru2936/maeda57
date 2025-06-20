@@ -5,8 +5,6 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/maeda57/' : '',
-  basePath: process.env.NODE_ENV === 'production' ? '/maeda57' : '',
 };
 
 export default nextConfig;

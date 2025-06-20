@@ -142,7 +142,7 @@ export default function Home() {
                     className="w-full max-w-md mx-auto mb-4"
                     preload="metadata"
                   >
-                    <source src="/maeda.wav" type="audio/wav" />
+                    <source src="maeda.wav" type="audio/wav" />
                     お使いのブラウザは音声の再生に対応していません。
                   </audio>
                   <div className="flex gap-2 justify-center">
@@ -339,12 +339,12 @@ export default function Home() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {[
-                { src: "/kintore.jpg", alt: "トレーニング中の前田さん", title: "筋トレおじ" },
-                { src: "/tyomoranma.jpg", alt: "大盛りのご飯と前田さん", title: "白屋のご飯" },
-                { src: "/oryouri.jpg", alt: "お肉を披露する前田さん", title: "焼肉" },
-                { src: "/wataruapplewatch.jpg", alt: "息子さんと一緒の前田さん", title: "Hublotの約束" },
-                { src: "/karate.jpg", alt: "若き日の前田さん（空手）", title: "極真空手" },
-                { src: "/friend.jpg", alt: "友達", title: "友人との会" },
+                { src: "kintore.jpg", alt: "トレーニング中の前田さん", title: "筋トレおじ" },
+                { src: "tyomoranma.jpg", alt: "大盛りのご飯と前田さん", title: "白屋のご飯" },
+                { src: "oryouri.jpg", alt: "お肉を披露する前田さん", title: "焼肉" },
+                { src: "wataruapplewatch.jpg", alt: "息子さんと一緒の前田さん", title: "Hublotの約束" },
+                { src: "karate.jpg", alt: "若き日の前田さん（空手）", title: "極真空手" },
+                { src: "friend.jpg", alt: "友達", title: "友人との会" },
               ].map((item, index) => (
                 <motion.div
                   key={index}
