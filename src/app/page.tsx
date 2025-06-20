@@ -339,11 +339,12 @@ export default function Home() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {[
-                { src: "/kintore.jpg", alt: "トレーニング中の前田さん", title: "鍛錬" },
-                { src: "/tyomoranma.jpg", alt: "大盛りのご飯と前田さん", title: "エネルギー" },
-                { src: "/oryouri.jpg", alt: "お肉を披露する前田さん", title: "ご馳走" },
-                { src: "/wataruapplewatch.jpg", alt: "息子さんと一緒の前田さん", title: "家族" },
-                { src: "/karate.jpg", alt: "若き日の前田さん（空手）", title: "武道" },
+                { src: "/kintore.jpg", alt: "トレーニング中の前田さん", title: "筋トレおじ" },
+                { src: "/tyomoranma.jpg", alt: "大盛りのご飯と前田さん", title: "白屋のご飯" },
+                { src: "/oryouri.jpg", alt: "お肉を披露する前田さん", title: "焼肉" },
+                { src: "/wataruapplewatch.jpg", alt: "息子さんと一緒の前田さん", title: "Hublotの約束" },
+                { src: "/karate.jpg", alt: "若き日の前田さん（空手）", title: "極真空手" },
+                { src: "/friend.jpg", alt: "友達", title: "友人との会" },
               ].map((item, index) => (
                 <motion.div
                   key={index}
@@ -367,52 +368,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 信条・仕事観セクション */}
-      <section className="section-padding bg-gradient-to-br from-navy-blue to-dark-navy text-white">
-        <div className="container-custom">
-          <motion.div
-            initial="initial"
-            whileInView="animate"
-            viewport={{ once: true }}
-            variants={staggerContainer}
-          >
-            <motion.h2
-              variants={fadeInUp}
-              className="text-4xl md:text-5xl font-bold text-center mb-16"
-            >
-              <Heart className="w-12 h-12 inline-block mr-4 text-gold" />
-              Philosophy
-            </motion.h2>
-
-            <div className="grid md:grid-cols-2 gap-12">
-              <motion.div variants={fadeInUp} className="glass-effect p-8 rounded-3xl">
-                <div className="flex items-center mb-6">
-                  <Heart className="w-10 h-10 text-red-400 mr-4" />
-                  <h3 className="text-2xl font-bold text-gold">想い</h3>
-                </div>
-                <p className="text-gray-100 leading-relaxed mb-4 text-lg">
-                  社会保険労務士は「通過点」のはずだったが、気づけばこの仕事にどっぷりと浸かっていた。
-                </p>
-                <p className="text-gray-100 leading-relaxed text-lg">
-                  経営者の力になりたい――という思いから人事制度だけでなくマーケティング、経営戦略にも踏み込む。
-                </p>
-              </motion.div>
-
-              <motion.div variants={fadeInUp} className="glass-effect p-8 rounded-3xl">
-                <div className="flex items-center mb-6">
-                  <Users className="w-10 h-10 text-blue-400 mr-4" />
-                  <h3 className="text-2xl font-bold text-gold">職場づくり</h3>
-                </div>
-                <p className="text-gray-100 leading-relaxed text-lg">
-                  プロフェスは「短所を矯正する場」ではなく「強みを伸ばす場」であり、
-                  誰もが主役になれる職場である。
-                </p>
-              </motion.div>
-            </div>
-          </motion.div>
-        </div>
-      </section>
-
+      
       {/* 活動紹介セクション */}
       <section className="section-padding bg-soft-gray">
         <div className="container-custom">
