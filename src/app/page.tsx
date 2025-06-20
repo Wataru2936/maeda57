@@ -339,12 +339,11 @@ export default function Home() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {[
-                { src: "/maeda kintore.jpg", alt: "トレーニング中の前田さん", title: "筋トレ" },
-                { src: "/maeda tyomoranma.jpg", alt: "大盛りのご飯と前田さん", title: "白屋のごはん" },
-                { src: "/maeda oryouri.jpg", alt: "お肉を披露する前田さん", title: "焼肉のご馳走" },
-                { src: "/maeda wataru applewatch.jpg", alt: "息子さんと一緒の前田さん", title: "Hublotの約束" },
-                { src: "/maeda karate.jpg", alt: "若き日の前田さん（空手）", title: "極真空手" },
-                { src: "/yuuzin.jpg", alt: "友人", title: "友人" },
+                { src: "/kintore.jpg", alt: "トレーニング中の前田さん", title: "鍛錬" },
+                { src: "/tyomoranma.jpg", alt: "大盛りのご飯と前田さん", title: "エネルギー" },
+                { src: "/oryouri.jpg", alt: "お肉を披露する前田さん", title: "ご馳走" },
+                { src: "/wataruapplewatch.jpg", alt: "息子さんと一緒の前田さん", title: "家族" },
+                { src: "/karate.jpg", alt: "若き日の前田さん（空手）", title: "武道" },
               ].map((item, index) => (
                 <motion.div
                   key={index}
