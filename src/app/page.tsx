@@ -540,7 +540,7 @@ export default function Home() {
                   <h3 className="text-2xl font-bold text-navy-blue">腹筋男子への道</h3>
                 </div>
                 <p className="text-gray-700 leading-relaxed text-lg">
-                  「今年中には"腹筋男子"に変身したい」と笑顔で語る一面も。
+                  &ldquo;今年中には&ldquo;腹筋男子&rdquo;に変身したい&rdquo;と笑顔で語る一面も。
                   目標に向かって努力を続けています。
                 </p>
               </motion.div>
@@ -609,7 +609,7 @@ export default function Home() {
                 </div>
                 <p className="text-black leading-relaxed text-lg">
                   社労士という仕事に、もっと希望と誇りを。
-                  10年後には「小学生がなりたい職業ベスト10」に社会保険労務士が入るような
+                  10年後には&ldquo;小学生がなりたい職業ベスト10&rdquo;に社会保険労務士が入るような
                   未来を本気で目指しています。
                 </p>
               </motion.div>
