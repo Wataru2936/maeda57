@@ -9,7 +9,7 @@ const notoSansJP = Noto_Sans_JP({
 });
 
 export const metadata: Metadata = {
-  title: "前田拓邦様 57歳記念サイト",
+  title: "前田さん57歳記念サイト",
   description: "前田拓邦様の57歳のお誕生日を記念した特設サイトです。",
   keywords: "前田拓邦, 社会保険労務士, 誕生日記念, プロフェス",
   openGraph: {

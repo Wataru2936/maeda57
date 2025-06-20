@@ -116,10 +116,10 @@ export default function Home() {
               className="text-center"
             >
               <h2 className="text-2xl md:text-3xl font-bold mb-6 text-shadow">
-                🎉 Happy 57th Birthday! 🎉
+                🎉 Happy Birthday! 🎉
               </h2>
               <p className="text-lg md:text-xl max-w-4xl mx-auto leading-relaxed opacity-90">
-                前田拓邦さんの57歳のお誕生日を心よりお祝い申し上げます。<br/>
+                前田さんのお誕生日を心よりお祝い申し上げます。<br/>
                 これまでの輝かしいご経歴と温かいお人柄に敬意を表し、<br/>
                 このたび特設サイトを制作させていただきました。
               </p>
@@ -217,8 +217,7 @@ export default function Home() {
                   </div>
                   <h3 className="text-xl font-bold text-navy-blue">生年月日</h3>
                 </div>
-                <p className="text-gray-700 font-semibold mb-2">1967年6月27日</p>
-                <p className="text-sm text-gray-500">現在56歳（2025年6月で57歳）</p>
+                <p className="text-gray-700 font-semibold mb-2">1968年6月27日</p>
               </motion.div>
 
               <motion.div variants={fadeInUp} className="card-shadow glass-effect p-8 rounded-3xl">
@@ -592,7 +591,7 @@ export default function Home() {
             </motion.div>
             
             <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gold">
-              前田拓邦さん、57歳のお誕生日おめでとうございます！
+              前田拓邦さん、お誕生日おめでとうございます！
             </h2>
             <p className="text-xl text-gray-300 leading-relaxed">
               これからも末永くお元気で、ますますのご活躍をお祈り申し上げます。
