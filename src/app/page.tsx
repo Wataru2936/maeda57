@@ -118,10 +118,9 @@ export default function Home() {
               <h2 className="text-2xl md:text-3xl font-bold mb-6 text-shadow">
                 🎉 Happy Birthday! 🎉
               </h2>
-              <p className="text-lg md:text-xl max-w-4xl mx-auto leading-relaxed opacity-90">
-                前田さんのお誕生日を心よりお祝い申し上げます。<br/>
-                これまでの輝かしいご経歴と温かいお人柄に敬意を表し、<br/>
-                このたび特設サイトを制作させていただきました。
+              <p className="text-lg md:text-xl max-w-4xl mx-auto leading-relaxed opacity-90 text-left">
+                前田さん、お誕生日心よりお祝い申し上げます。<br/>
+                これまでの輝かしいご経歴と温かいお人柄に敬意を表し、このたび特設サイトを制作させていただきました！
               </p>
               
               {/* 音声プレーヤー */}
@@ -566,6 +565,78 @@ export default function Home() {
                   10年後には&ldquo;小学生がなりたい職業ベスト10&rdquo;に社会保険労務士が入るような
                   未来を本気で目指しています。
                 </p>
+              </motion.div>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* 関連リンク集セクション */}
+      <section className="section-padding bg-soft-gray">
+        <div className="container-custom">
+          <motion.div
+            initial="initial"
+            whileInView="animate"
+            viewport={{ once: true }}
+            variants={staggerContainer}
+          >
+            <motion.h2
+              variants={fadeInUp}
+              className="text-4xl md:text-5xl font-bold text-center mb-16 text-navy-blue"
+            >
+              <Star className="w-12 h-12 inline-block mr-4 text-gold" />
+              Related Links
+            </motion.h2>
+
+            <div className="grid md:grid-cols-2 gap-12">
+              {/* プロフェス公式サイト */}
+              <motion.div variants={fadeInUp} className="card-shadow glass-effect p-8 rounded-3xl">
+                <div className="flex items-center mb-6">
+                  <div className="w-16 h-16 bg-gradient-to-r from-navy-blue to-light-navy rounded-2xl flex items-center justify-center mr-4">
+                    <Building className="w-8 h-8 text-white" />
+                  </div>
+                  <h3 className="text-2xl font-bold text-navy-blue">社会保険労務士法人プロフェス</h3>
+                </div>
+                <p className="text-gray-700 leading-relaxed text-lg mb-6">
+                  前田さんが代表を務める社会保険労務士法人プロフェスの公式サイトです。
+                  人事制度設計、評価者研修、就業規則策定など、幅広いサービスを提供しています。
+                </p>
+                <a 
+                  href="https://www.sr-profess.com/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 bg-gradient-to-r from-navy-blue to-light-navy text-white px-6 py-3 rounded-xl hover:shadow-lg transition-all duration-300 hover:scale-105"
+                >
+                  <span>公式サイトを見る</span>
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                  </svg>
+                </a>
+              </motion.div>
+
+              {/* YouTube動画 */}
+              <motion.div variants={fadeInUp} className="card-shadow glass-effect p-8 rounded-3xl">
+                <div className="flex items-center mb-6">
+                  <div className="w-16 h-16 bg-gradient-to-r from-red-500 to-red-600 rounded-2xl flex items-center justify-center mr-4">
+                    <svg className="w-8 h-8 text-white" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                    </svg>
+                  </div>
+                  <h3 className="text-2xl font-bold text-navy-blue">YouTube動画</h3>
+                </div>
+                <p className="text-gray-700 leading-relaxed text-lg mb-6">
+                  前田さんの活動や想いを紹介する動画をご覧いただけます。
+                </p>
+                <div className="relative w-full h-64 rounded-2xl overflow-hidden shadow-lg">
+                  <iframe
+                    src="https://www.youtube.com/embed/9Qf8enedsQk?si=mbGIbXh4pTOXwzTz"
+                    title="前田拓邦さん紹介動画"
+                    className="w-full h-full"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
+                  ></iframe>
+                </div>
               </motion.div>
             </div>
           </motion.div>
